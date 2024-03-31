@@ -8,8 +8,11 @@ const FOLDERS = {
   O4: '04-end',
 };
 
-
-const start = () => [`${FOLDERS.OO}/a-welcome.md`, `${FOLDERS.OO}/b-speaker-ala.md`];
+const start = () => [
+  `${FOLDERS.OO}/a-welcome.md`,
+  `${FOLDERS.OO}/b-speaker-ala.md`,
+  `${FOLDERS.OO}/c-speaker-bpr.md`
+];
 const concepts = () => [
   `${FOLDERS.O1}/a-concepts.md`,
   `${FOLDERS.O1}/b-networks.md`,

@@ -78,4 +78,27 @@ Ressource : [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
 
 ##==##
 
-# TODO Bertrand
+# Halving : Principe
+![w-700](./assets/images/03-usecases/bitcoin-halving.png)
+<br><br>
+- Division par deux de la récompense du minage tous les 4 ans (tous les 210 000 blocs)
+<br><br>
+- Permet une meilleure valorisation (sur la base d'un niveau de demande constant)
+<br><br>
+- Permet de prévoir quand la totalité des 21 millions de Bitcoin seront créés
+
+##==##
+
+# Halving : Impact sur l'évolution de la masse monétaire
+
+Une inflation monétaire vérifiable et prévisible:
+
+![h-700](./assets/images/03-usecases/bitcoin-monetarymass.png)
+
+##==##
+
+# Halving : Impact sur le prix du Bitcoin
+
+Pour un niveau de demande supposé constant, le halving a un impact sur la valorisation du Bitcoin.
+
+![h-700](./assets/images/03-usecases/bitcoin-halvingprice.png)
