@@ -1,4 +1,4 @@
-<!-- .slide: class="first-slide" sfeir-level="1" sfeir-techno="Block⛓️" -->
+<!-- .slide: class="first-slide" -->
 
 # Nuit des Meetups 2024
 

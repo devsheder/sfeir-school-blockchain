@@ -1,3 +1,27 @@
-.reveal .slides section {
-    // Do some stuff
+// force Sfeir School logo on first page
+.reveal .slides section[data-background].first-slide:before {
+    background-image: url(/assets/images/logo_b_s.png);
+    height: 250px;
+    left: 500px;
+}
+
+// remove sfeir school level badge on first page
+.sfeir-logo {
+    background: none !important;
+}
+.reveal .slides section[data-background].first-slide div.sfeir-logo[data-sfeir-level="1"]:after {
+    background: none !important;
+}
+
+// remove Sfeir school on bottom on all slides
+.reveal .backgrounds div.slide-background.speaker-slide .slide-background-content:after,
+.reveal .backgrounds div.slide-background.first-slide .slide-background-content:after,
+.reveal .backgrounds div.slide-background[class*=transition] .slide-background-content:after,
+.reveal .backgrounds div.slide-background.sfeir-basic-slide[class*=transition] .slide-background-content:after,
+.reveal .backgrounds div.slide-background.sfeir-specific-slide[class*=transition] .slide-background-content:after,
+.reveal .backgrounds div.slide-background.first-slide .slide-background-content:after,
+.reveal .backgrounds div.slide-background.quote-slide .slide-background-content:after,
+.reveal .backgrounds div.slide-background.with-code-dark:not(.sfeir-specific-slide):not(.stack):not([class*=transition]) .slide-background-content:after,
+.reveal .backgrounds div.slide-background .slide-background-content:after {
+    background: none;
 }
