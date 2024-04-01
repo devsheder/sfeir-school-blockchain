@@ -8,5 +8,3 @@
 - Cryptomonnaies
 <br><br>
 - Smart contracts (NFT / SBT)
-<br><br>
-- Certifications / diplômes
